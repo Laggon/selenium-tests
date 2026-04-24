@@ -10,21 +10,37 @@
 
 ## Установка
 
+Создание виртуального окружения:
+
 ```sh
 python -m venv .venv
 ```
+
+Активация виртуального окружения на Linux:
 
 ```sh
 source .venv/bin/activate
 ```
 
+Активация виртуального окружения на Windows:
+
+```sh
+venv\Scripts\activate
+```
+
+Установка пакетов:
+
 ```sh
 pip install -r requirements.txt
 ```
 
+Настройка параметров окружения:
+
 ```sh
 cp .env.example .env
 ```
+
+Если необходимо, то внести изменения в `.env`
 
 ## Запуск
 
