@@ -1,5 +1,5 @@
 import pytest
-from classes.browser import Browser
+from components.browser import Browser
 
 @pytest.fixture
 def driver():
