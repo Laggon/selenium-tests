@@ -6,7 +6,7 @@ class IndexPage(UserPage):
         super().open("")
 
     def assert_h1(self):
-        super().assert_h1("Южно-Уральский государственный университет")
+        super().assert_h1("Поступай и учись в ЮУрГУ!")
 
     def open_contacts(self):
         link = self.driver.find_element(By.LINK_TEXT, "КОНТАКТЫ")
